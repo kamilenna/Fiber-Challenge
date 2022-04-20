@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 30px 0;
+}
+
+#logo a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#section-form {
+  width: 90%;
+  height: 100vh;
+  display: block;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.form-main h1 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.form-main label {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+form input {
+  border: 1px solid #65646462;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form input::placeholder {
+  color: #65646496;
+}
+
+.form-check {
+  margin-top: 20px;
+}
+
+.form-check-input[type=checkbox] {
+  margin-top: 25px;
+}
+
+.form-check-label {
+  margin-left: 8px;
+}
+
+.form-check-label > a {
+  font-weight: 800;
+  color: #4d13d1;
+  text-decoration: 2px underline #4d13d1;
+}
+button {
+  background-color: #4d13d1;
+  color: #fffffd;
+  font-weight: 600;
+  padding: 15px 10px;
+  width: 280px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+p {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+p > a {
+  color: #4d13d1;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#card {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 50%;
+    background-color: #4d13d1;
+  }
+
+  .content {
+    width: 80%;
+    height: 75vh;
+    text-align: center;
+  }
+
+  .card-img {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+  }
+
+  .card-img img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .content h1 {
+    font-weight: 700;
+    color: #fffffd;
+  }
+
+  .content p {
+    font-weight: 400;
+    color: #fffffdd8;
+  }
+}
+
+@media (min-width: 600px) {
+  #section-form {
+    width: 400px;
+  }
+}
