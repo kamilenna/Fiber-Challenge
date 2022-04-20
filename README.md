@@ -2,7 +2,7 @@
 <h1 align="center">Fiber - Landing page</h1>
 
 
-<h2 align="center"><a href="https://fiber-page.netlify.app/">Acessar projeto</a></h2>
+<h2 align="center"><a href="https://fiber-page.netlify.app/" target="_blank">Acessar projeto</a></h2>
 
 # Status
 
